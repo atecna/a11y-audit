@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="brandBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ee5a6f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brandAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd89b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#19547b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brandGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffd89b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb347;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#brandBg)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="250" r="100" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="1050" cy="650" r="130" fill="rgba(255,255,255,0.08)"/>
+  <rect x="900" y="100" width="120" height="120" fill="rgba(19,84,123,0.1)" rx="15"/>
+  
+  <!-- Left design - Logo/Brand elements -->
+  <g id="leftBrandElements">
+    <!-- Abstract logo shapes -->
+    <circle cx="150" cy="400" r="45" fill="#ffd89b" opacity="0.9"/>
+    <circle cx="200" cy="380" r="35" fill="#19547b" opacity="0.85"/>
+    <circle cx="130" cy="450" r="30" fill="#ffb347" opacity="0.9"/>
+    
+    <!-- Brand mark -->
+    <polygon points="100,550 50,650 150,650" fill="#ffd89b" opacity="0.8"/>
+    <polygon points="110,560 75,630 145,630" fill="#19547b" opacity="0.8"/>
+  </g>
+  
+  <!-- Center content -->
+  <g id="centerBrand">
+    <!-- Main title -->
+    <text x="600" y="180" font-size="68" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+      Services de
+    </text>
+    <text x="600" y="260" font-size="68" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+      Branding
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="350" font-size="24" text-anchor="middle" fill="rgba(255,255,255,0.95)" font-family="Arial, sans-serif">
+      Créez votre identité visuelle unique
+    </text>
+    
+    <!-- Services list -->
+    <g id="brandServices">
+      <!-- Service 1 -->
+      <rect x="280" y="420" width="320" height="80" fill="rgba(255,255,255,0.12)" rx="10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <text x="440" y="455" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffd89b" font-family="Arial, sans-serif">
+        Design Logo
+      </text>
+      <text x="440" y="490" font-size="16" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        Logos distinctifs et mémorables
+      </text>
+      
+      <!-- Service 2 -->
+      <rect x="600" y="420" width="320" height="80" fill="rgba(255,255,255,0.12)" rx="10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <text x="760" y="455" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffd89b" font-family="Arial, sans-serif">
+        Identité Visuelle
+      </text>
+      <text x="760" y="490" font-size="16" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        Cohérence visuelle complète
+      </text>
+      
+      <!-- Service 3 -->
+      <rect x="280" y="530" width="320" height="80" fill="rgba(255,255,255,0.12)" rx="10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <text x="440" y="565" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffd89b" font-family="Arial, sans-serif">
+        Guide de Marque
+      </text>
+      <text x="440" y="600" font-size="16" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        Documentation complète
+      </text>
+      
+      <!-- Service 4 -->
+      <rect x="600" y="530" width="320" height="80" fill="rgba(255,255,255,0.12)" rx="10" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+      <text x="760" y="565" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffd89b" font-family="Arial, sans-serif">
+        Palette &amp; Typographie
+      </text>
+      <text x="760" y="600" font-size="16" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        Sélection d'experts
+      </text>
+    </g>
+    
+    <!-- Bottom tagline -->
+    <text x="600" y="720" font-size="18" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif" font-style="italic">
+      Une marque forte commence par une identité visuelle exceptionnelle
+    </text>
+  </g>
+  
+  <!-- Right design - Abstract shapes -->
+  <g id="rightBrandElements">
+    <!-- Color swatches -->
+    <rect x="1000" y="300" width="60" height="60" fill="#ffd89b" opacity="0.85"/>
+    <rect x="1070" y="300" width="60" height="60" fill="#19547b" opacity="0.85"/>
+    <rect x="1000" y="370" width="60" height="60" fill="#ffb347" opacity="0.85"/>
+    <rect x="1070" y="370" width="60" height="60" fill="#ffffff" opacity="0.85"/>
+    
+    <!-- Abstract lines -->
+    <line x1="950" y1="500" x2="1120" y2="500" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="950" y1="530" x2="1080" y2="530" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="950" y1="560" x2="1100" y2="560" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

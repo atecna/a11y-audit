@@ -8,10 +8,10 @@
         <div>
           <h4>Navigation</h4>
           <ul>
-            <NuxtLink to="/services">Services</NuxtLink>
-            <NuxtLink to="/portfolio">Portfolio</NuxtLink>
-            <NuxtLink to="/about">À propos</NuxtLink>
-            <NuxtLink to="/contact">Contact</NuxtLink>
+            <li><NuxtLink to="/services">Services</NuxtLink></li>
+            <li><NuxtLink to="/portfolio">Portfolio</NuxtLink></li>
+            <li><NuxtLink to="/about">À propos</NuxtLink></li>
+            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           </ul>
         </div>
         <div>

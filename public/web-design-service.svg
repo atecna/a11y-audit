@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="150" r="80" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="1100" cy="700" r="120" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="900" cy="200" r="60" fill="rgba(240,147,251,0.15)"/>
+  
+  <!-- Main content group -->
+  <g id="mainContent">
+    <!-- Left design element - geometric shapes -->
+    <g id="leftDesign">
+      <!-- Rectangle -->
+      <rect x="80" y="300" width="150" height="150" fill="url(#accentGradient)" rx="10" opacity="0.9"/>
+      <!-- Circle -->
+      <circle cx="200" cy="500" r="70" fill="#fbbf24" opacity="0.8"/>
+      <!-- Triangle-like shape -->
+      <polygon points="150,650 100,750 200,750" fill="#06b6d4" opacity="0.8"/>
+    </g>
+    
+    <!-- Center text and main elements -->
+    <g id="centerContent">
+      <!-- Main title -->
+      <text x="600" y="200" font-size="72" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        Services
+      </text>
+      <text x="600" y="280" font-size="72" font-weight="bold" text-anchor="middle" fill="white" font-family="Arial, sans-serif">
+        de Web Design
+      </text>
+      
+      <!-- Subtitle -->
+      <text x="600" y="380" font-size="28" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-family="Arial, sans-serif">
+        Création d'expériences web modernes et accessibles
+      </text>
+      
+      <!-- Key benefits -->
+      <g id="benefits">
+        <!-- Benefit 1 -->
+        <circle cx="350" cy="520" r="8" fill="#fbbf24"/>
+        <text x="380" y="528" font-size="18" fill="white" font-family="Arial, sans-serif">
+          Design Responsif
+        </text>
+        
+        <!-- Benefit 2 -->
+        <circle cx="750" cy="520" r="8" fill="#06b6d4"/>
+        <text x="780" y="528" font-size="18" fill="white" font-family="Arial, sans-serif">
+          Performance Optimisée
+        </text>
+        
+        <!-- Benefit 3 -->
+        <circle cx="350" cy="580" r="8" fill="#fbbf24"/>
+        <text x="380" y="588" font-size="18" fill="white" font-family="Arial, sans-serif">
+          Accessibilité (A11y)
+        </text>
+        
+        <!-- Benefit 4 -->
+        <circle cx="750" cy="580" r="8" fill="#06b6d4"/>
+        <text x="780" y="588" font-size="18" fill="white" font-family="Arial, sans-serif">
+          SEO-Friendly
+        </text>
+      </g>
+      
+      <!-- Footer tagline -->
+      <text x="600" y="700" font-size="20" text-anchor="middle" fill="rgba(255,255,255,0.85)" font-family="Arial, sans-serif" font-style="italic">
+        Transformons vos idées en expériences numériques exceptionnelles
+      </text>
+    </g>
+    
+    <!-- Right design element - geometric shapes -->
+    <g id="rightDesign">
+      <!-- Square -->
+      <rect x="970" y="320" width="140" height="140" fill="#06b6d4" rx="8" opacity="0.85" transform="rotate(15 1040 390)"/>
+      <!-- Circle -->
+      <circle cx="1050" cy="600" r="65" fill="#fbbf24" opacity="0.7"/>
+      <!-- Lines -->
+      <line x1="950" y1="220" x2="1100" y2="180" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+      <line x1="1000" y1="750" x2="1100" y2="720" stroke="rgba(255,255,255,0.3)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
